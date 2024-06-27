@@ -34,16 +34,16 @@ class Speedometer extends Component {
         <img
           className="imager"
           src="https://assets.ccbp.in/frontend/react-js/speedometer-img.png"
-          alt=""
+          alt="speedometer"
         />
-        <p className="para">Speed is {speed}mph</p>
-        <p className="para">Min Limit is 0 and Max Limit is 200mph</p>
+        <h1 className="para">Speed is {speed}mph</h1>
+        <p className="para">Min Limit is 0mph, Max Limit is 200mph</p>
         <div className="cont2">
           <button className="btn-pr" type="button" onClick={this.Accelerate}>
             Accelerate
           </button>
           <button className="btn-tr" type="button" onClick={this.ApplyBreak}>
-            Apply Break
+            Apply Brake
           </button>
         </div>
       </div>
