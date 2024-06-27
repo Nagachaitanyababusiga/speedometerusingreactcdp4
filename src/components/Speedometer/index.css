@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.imager {
+  height: 50%;
+  width: 50%;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  font-size: 25px;
+}
+
+.btn-pr {
+  background-color: #0b69ff;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.btn-tr {
+  background-color: transparent;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #ffffff;
+  border-style: solid;
+}
